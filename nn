@@ -26,7 +26,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(183, 101, 255)
+Frame.BackgroundColor3 = Color3.fromRGB(8, 232, 222)
 Frame.Position = UDim2.new(0.369825214, 0, 0.423832893, 0)
 Frame.Size = UDim2.new(0, 350, 0, 250)
 Frame.Active = true
@@ -34,7 +34,7 @@ Frame.Draggable = true
 
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(125, 102, 255)
+TextButton.BackgroundColor3 = Color3.fromRGB(8, 232, 222)
 TextButton.Position = UDim2.new(0.01, 0, 0.00832893, 0)
 TextButton.Size = UDim2.new(0, 303, 0, 35)
 TextButton.Font = Enum.Font.Cartoon
@@ -44,4 +44,4 @@ TextButton.TextSize = 40.000
 
 
 
-game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "المطور حسين"; 	Text = ""; 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"}) Duration = 5;
+game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "قناة المطور حسين"; 	Text = "مبرمج بواسطة حسين و حسوني"; 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"}) Duration = 5;
