@@ -1,0 +1,47 @@
+-- This GUI made by !LUCIFER#9773
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextLabel")
+local idk = Instance.new("TextButton")
+local idk1 = Instance.new("TextButton")
+local idk2 = Instance.new("TextButton")
+local idk3 = Instance.new("TextButton")
+local idk4 = Instance.new("TextButton")
+local idk5 = Instance.new("TextButton")
+local idk6 = Instance.new("TextButton")
+local idk7 = Instance.new("TextButton")
+local idk8 = Instance.new("TextButton")
+local idk9 = Instance.new("TextButton")
+local idk12 = Instance.new("TextButton")
+local idk13 = Instance.new("TextButton")
+local idk14 = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(183, 101, 255)
+Frame.Position = UDim2.new(0.369825214, 0, 0.423832893, 0)
+Frame.Size = UDim2.new(0, 350, 0, 250)
+Frame.Active = true
+Frame.Draggable = true
+
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(125, 102, 255)
+TextButton.Position = UDim2.new(0.01, 0, 0.00832893, 0)
+TextButton.Size = UDim2.new(0, 303, 0, 35)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "المطور حسين"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 40.000
+
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 	Title = "المطور حسين"; 	Text = ""; 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"}) Duration = 5;
