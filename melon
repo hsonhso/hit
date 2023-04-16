@@ -3,8 +3,8 @@
 
 -- Instances:
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "المطور رايزو";
-	Text = "";
+	Title = "Melon Hub Version 2";
+	Text = "Inspired by vhub, gui from psy hub (edited), This is not vhub and animations are fe only";
 	Icon = "rbxthumb://type=Asset&id=7969699183&w=150&h=150"})
 Duration = 16;
 local ScreenGui = Instance.new("ScreenGui")
@@ -52,7 +52,7 @@ OpenButton.BorderSizePixel = 0
 OpenButton.Position = UDim2.new(0.0305736773, 0, 0.116329789, 0)
 OpenButton.Size = UDim2.new(0, 66, 0, 20)
 OpenButton.Font = Enum.Font.Cartoon
-OpenButton.Text = "فتح"
+OpenButton.Text = "Melon Hub"
 OpenButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 OpenButton.TextScaled = true
 OpenButton.TextSize = 14.000
@@ -98,7 +98,7 @@ CloseButton.BorderSizePixel = 0
 CloseButton.Position = UDim2.new(0.905339777, 0, 0, 0)
 CloseButton.Size = UDim2.new(0, 39, 0, 22)
 CloseButton.Font = Enum.Font.Cartoon
-CloseButton.Text = "اغلاق"
+CloseButton.Text = "Close"
 CloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 CloseButton.TextScaled = true
 CloseButton.TextSize = 14.000
