@@ -327,4 +327,3 @@ MainFrameBeautyB.BorderSizePixel = 0
 MainFrameBeautyB.Position = UDim2.new(0, 0, 0.916349828, 0)
 MainFrameBeautyB.Size = UDim2.new(0, 412, 0, 22)
 MainFrameBeautyB.Visible = false
-end)
